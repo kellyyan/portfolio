@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+  transition-delay: 1s !important;
+}
+
+body {
+  margin: 0;
+}
+
+/* @font-face {
+  font-family: 'NewYork';
+  font-style: normal;
+  font-weight: normal;
+  src: url('NewYork'), url(./fonts/NewYork/NewYork.otf) format('opentype');
+} */
+
+h1 {
+  font-family: New York;
+  font-size: 10vmin;
+}
+
+h2 {
+  font-family: New York;
+  font-size: 7vmin;
+  margin-top: 2vmin;
+}
+
+h3 {
+  font-family: Acumin Pro Wide;
+  font-size: 2vmin;
+}
+
+h4 {
+  font-family: Acumin Pro Wide;
+  font-size: 1.5vmin;  
+}
+
+p {
+  font-family: Spartan, 'sans-serif';
+  font-size: 2.3vmin;
+  line-height: 3.5vmin;
+}
+
+
+a {
+  font-family: Spartan, sans-serif;
+  /* font-size: calc(2vmin); */
+  font-size: 2vmin;
+  text-decoration: none;
+  color:black;
+  transition: 500ms;
+  text-align: right;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}

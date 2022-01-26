@@ -1,0 +1,48 @@
+@media screen and (max-width: 1000px) {
+  .App {
+    padding: 20vmin;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .App {
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+    padding-top: 15vmin;
+    padding-bottom: 15vmin;
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 10vmin;
+  gap: 10vmin;
+}
+
+.Parent {
+  background: #fcf2e4;
+  display: flex;
+  flex-direction: column;
+  gap: 10vmin;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

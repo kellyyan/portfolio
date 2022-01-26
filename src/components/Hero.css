@@ -1,0 +1,97 @@
+@media screen and (max-width: 800px) {
+    .sparkle-img {
+        width: 15vmin;
+        align-self: top;
+        position: absolute;
+        left: 55vmin;
+        top: 15vmin;
+    }
+
+    .kermit {
+        width: 15vmin;
+        height: auto;
+    }
+
+    .kermit-text-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .sparkle-img {
+        width: 15vmin;
+        align-self: top;
+        position: absolute;
+        left: 100vmin;
+        top: 1vmin;
+    }    
+
+    .kermit {
+        width: 35vmin;
+        height: 35vmin;
+        margin-top: auto;
+    }
+
+    .kermit-text-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+}
+
+.hero-p-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.01vmin;
+}
+
+.header {
+    max-width: 160vmin;
+}
+
+.header-image-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.sparkle-img > path {
+    stroke: lightblue;
+    stroke-width: 3px;
+}
+
+.sparkle-img > circle {
+    fill: lightblue;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .sparkle-img > path {
+        animation: stroke-change infinite 0.8s linear;
+    }
+
+    .sparkle-img > circle {
+        animation: fill-change infinite 0.8s linear;
+    }
+}
+
+@keyframes stroke-change {
+    0%,30% {stroke:inherit}
+    40% {stroke: #adf442}
+    60% {stroke:#ffc1cb}
+    70% {stroke:#faa6b2}
+    80%,100% {stroke:#f07789}
+}
+
+@keyframes fill-change {
+    0%,30% {fill:inherit}
+    40% {fill: #adf442}
+    60% {fill:#ffc1cb}
+    70% {fill:#faa6b2}
+    80%,100% {fill:#f07789}
+}

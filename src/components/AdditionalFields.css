@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+    .parent {
+        display: flex;
+        flex-direction: column;
+        gap: 10vmin;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .parent {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left-child {
+        margin-right: auto;
+    }
+}
+
+.document-link {
+    font-size: 2.3vmin;
+    opacity: 0.5;
+}
+
+.field-header {
+    font-size: 4vmin;
+    margin-bottom: 0;
+}

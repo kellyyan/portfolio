@@ -1,0 +1,64 @@
+@media screen and (max-width: 1400px) {
+    .about-me-container {
+        flex-direction: column;
+    }
+
+    .about-me-text {
+        width: auto;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5vmin;
+        justify-content: center;
+    }
+
+    .frog-waving {
+        width:3.8vmin;
+        position: absolute;
+        transform: translate(-54vmin, 50vmin);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .about-me-container {
+        flex-direction: row;
+    }   
+
+    .about-me-text {
+        width: 90vmin;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5vmin;
+        justify-content: center;
+    }
+
+    .frog-waving {
+        width: 4.7vmin;
+        position: absolute;
+        transform: translate(-55.2vmin, 50vmin);
+    }
+}
+
+.resume-link {
+    font-size: 2.3vmin;
+    opacity: 0.5;
+}
+
+.me {
+    width: 50vmin;
+    position: relative;
+}
+
+.about-me-container {
+    display: flex;
+    gap: 10vmin;
+}
+
+.meme {
+    width: 100%;
+}
