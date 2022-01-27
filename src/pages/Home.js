@@ -12,10 +12,10 @@ function Home() {
       <div className='App'>
         <Navbar />
         <Hero />
-        <div id="work">
+        {/* <div id="work">
           <Projects />
         </div>
-        <GraphicDesign />
+        <GraphicDesign /> */}
       </div>
       <Footer />
     </div>
