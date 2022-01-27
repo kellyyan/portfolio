@@ -1,4 +1,4 @@
-export default [
+const memesData = [
     {
         "id" : "1",
         "url" : "patterns.png"
@@ -24,3 +24,5 @@ export default [
         "url" : "christmas.jpg"
     },
 ]
+
+export default memesData

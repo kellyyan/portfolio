@@ -1,4 +1,4 @@
-export default [
+const projectData = [
     {
         "id" : "1",
         "field" : "UI/UX",
@@ -18,3 +18,5 @@ export default [
         "url" : "/fid"
     },
 ]
+
+export default projectData
