@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import '../index.css'
 import './about.css'
 import Resume from '../documents/Kelly_Yan_Design_Resume.pdf'
-import me from '../images/me-min.jpg'
+import me from '../images/me.jpg'
 import frogWaving from '../images/frog-waving.svg'
 import memesData from "../data/memesData"
 

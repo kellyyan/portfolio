@@ -5,7 +5,7 @@ const projectData = [
         "type" : "Project",
         "title" : "Coders SB",
         "description" : "Coders SB needed a website redesign.",
-        "image" : "coders-sb-thumbnail.svg",
+        "image" : "coders_sb_thumbnail.svg",
         "url" : "/coders-sb"
     },
     {
@@ -14,7 +14,7 @@ const projectData = [
         "type" : "Internship",
         "title" : "F*ck It Denim",
         "description" : "A website for a company striving to make size inclusive jeans.",
-        "image" : "fid-thumbnail.svg",
+        "image" : "fid_thumbnail.svg",
         "url" : "/fid"
     },
 ]

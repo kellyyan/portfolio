@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 
 import GlobalFonts from './fonts/fonts'
 import './App.css'
@@ -17,12 +17,14 @@ function App() {
       <GlobalFonts />
       <BrowserRouter>
         <ScrollToTop />
+        <Suspense fallback={<div>Loading...</div>}>
         <Routes>
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='coders-sb' element={<CaseStudy1 />} />
             <Route path='fid' element={<CaseStudy2 />} />
         </Routes>
+        </Suspense>
       </BrowserRouter>
     </div>
   );

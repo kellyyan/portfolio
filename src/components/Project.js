@@ -26,7 +26,7 @@ function Project(props) {
                 </Link>
             </div>
             <Link to={props.url}>
-                <img className='project-image' src={`./images/${props.image}`} alt=''/>
+                <img className='project-image' src={`./images/compressed/${props.image}`} alt=''/>
             </Link>
         </div>
     )

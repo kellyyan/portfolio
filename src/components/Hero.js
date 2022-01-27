@@ -1,9 +1,9 @@
 import React from 'react'
-
 import './Hero.css'
 import kermit from '../images/kermit.png'
 
 function Hero() {
+
     return (
         <div className='hero-container'>
             <div className='header-image-container'>
@@ -13,7 +13,7 @@ function Hero() {
                         <br/>
                         I’m Kelly, an aspiring designer and developer.
                     </h1>
-                    <img className='kermit' src={kermit} alt='kermit'></img>
+                    <img className='kermit' src={kermit} alt=''></img>
                 </div>
                 <div>
                     <svg className='sparkle-img' width="156" height="109" viewBox="0 0 156 109" fill="none" xmlns="http://www.w3.org/2000/svg">

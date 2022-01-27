@@ -28,8 +28,8 @@
     }    
 
     .kermit {
-        width: 35vmin;
-        height: 35vmin;
+        width: 30vmin;
+        height: auto;
         margin-top: auto;
     }
 

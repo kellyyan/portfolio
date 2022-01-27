@@ -5,11 +5,11 @@ import './caseStudy.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-import oldWebsite1 from '../images/fid/old-website.svg'
-import branding from '../images/fid/fid-branding.svg'
-import lofi from '../images/fid/fid-lofi.svg'
-import hifi from '../images/fid/fid-hifi.svg'
-import fid from '../images/fid/fid-dec-1.svg'
+import oldWebsite1 from '../images/fid/compressed/old-website.svg'
+import branding from '../images/fid/compressed/fid-branding.svg'
+import lofi from '../images/fid/compressed/fid-lofi.svg'
+import hifi from '../images/fid/compressed/fid-hifi.svg'
+import fid from '../images/fid/compressed/fid-dec-1.svg'
 
 function CaseStudy1() {
     return (
