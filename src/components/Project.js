@@ -1,3 +1,5 @@
+import React from 'react'
+
 import './Project.css'
 import rightArrow from '../images/right-arrow.svg'
 
@@ -19,12 +21,12 @@ function Project(props) {
                 <p className='project-desription'>{props.description}</p>
                 <Link to={props.url}>
                 <div className='link-with-icon arrow-icon'>
-                    <p className='case-study-p'>View case study</p><img className='arrow-icon' src={rightArrow}></img>
+                    <p className='case-study-p'>View case study</p><img className='arrow-icon' src={rightArrow} alt=''></img>
                 </div>
                 </Link>
             </div>
             <Link to={props.url}>
-                <img className='project-image' src={`./images/${props.image}`}/>
+                <img className='project-image' src={`./images/${props.image}`} alt=''/>
             </Link>
         </div>
     )

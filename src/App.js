@@ -3,8 +3,7 @@ import React from 'react';
 import GlobalFonts from './fonts/fonts'
 import './App.css'
 
-import { HashRouter, Routes, Route } from 'react-router-dom'
-// import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
@@ -16,7 +15,7 @@ function App() {
   return (
     <div className='Parent'>
       <GlobalFonts />
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <Routes>
             <Route index element={<Home />} />
@@ -24,7 +23,7 @@ function App() {
             <Route path='coders-sb' element={<CaseStudy1 />} />
             <Route path='fid' element={<CaseStudy2 />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }

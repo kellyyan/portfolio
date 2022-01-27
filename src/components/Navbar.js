@@ -1,3 +1,5 @@
+import React from 'react'
+
 import frog from '../images/frog.svg'
 
 import '../index.css'

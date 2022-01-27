@@ -1,3 +1,5 @@
+import React from 'react'
+
 import '../index.css'
 import './caseStudy.css'
 import Navbar from '../components/Navbar'
@@ -21,7 +23,7 @@ function CaseStudy1() {
         <div className='Parent'>
             <div className='App'>
                 <Navbar />
-                <img></img>
+                {/* <img></img> */}
                 <div className='CaseStudy'>            
                     <h2 className='h2'>Coders SB Website Resdesign</h2>
                     <div className='info-container'>
@@ -58,7 +60,7 @@ function CaseStudy1() {
                     </div> 
                     <div className='section'>
                         <h3 className='h3'>RESEARCH</h3>
-                        <p>I started by perusing websites of computer science organizations at other schools such as <a className='a' href='https://wics.engineering.ucdavis.edu/' target='_blank'>Davis Women In Computer Science</a> and <a className='a' href='https://acmucsd.com/' target='_blank'>Association for Computing Machinery at UCSD</a>.
+                        <p>I started by perusing websites of computer science organizations at other schools such as <a className='a' href='https://wics.engineering.ucdavis.edu/' target='_blank' rel="noopener noreferrer">Davis Women In Computer Science</a> and <a className='a' href='https://acmucsd.com/' target='_blank' rel="noopener noreferrer">Association for Computing Machinery at UCSD</a>.
                             <br />
                             I noticed that blue was a commonly used primary color and there was various tech inspired designs and imagery.
                             <br />
@@ -100,7 +102,7 @@ function CaseStudy1() {
                         <h3 className='h3'>HIGH FIDELITY WIREFRAMES</h3>
                         <p>
                             I created high fidelity wireframes, with illustrations created in Adobe Illustrator. I focusing on creating a dynamic, and interesting page layout while ensuring the site was intuitive to navigate and a fun overall visual experience.
-                            I recieved feedback on my designs from my peers in <a className='a' href='https://sbcreativelab.com' target='_blank'>SB Creative Lab</a> and further interated by making the call to action items buttons instead of links so they are more prominent and the user is more likely to click them.
+                            I recieved feedback on my designs from my peers in <a className='a' href='https://sbcreativelab.com' target='_blank' rel="noopener noreferrer">SB Creative Lab</a> and further interated by making the call to action items buttons instead of links so they are more prominent and the user is more likely to click them.
                         </p>
                         <div className='image-with-caption'>
                             <div className='image-container'>
@@ -114,7 +116,7 @@ function CaseStudy1() {
                     <div className='section'>
                         <h3 className='h3'>DELIVERABLE</h3>
                         <p>
-                            I am currently coding the site from scratch in React. It will be up soon at the <a className='a' href='https://coderssb.com' target='_blank'>Coders SB</a> site. For now, the website is still the old design.
+                            I am currently coding the site from scratch in React. It will be up soon at the <a className='a' href='https://coderssb.com' target='_blank' rel="noopener noreferrer">Coders SB</a> site. For now, the website is still the old design.
                             The redesigned site will be up soon!
                         </p>
                     </div>

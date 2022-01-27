@@ -1,3 +1,5 @@
+import React from 'react'
+
 import line from '../images/horizontal-line.svg'
 import './Footer.css'
 import footerImage from '../images/frog-with-heart.svg'
@@ -5,7 +7,7 @@ import footerImage from '../images/frog-with-heart.svg'
 function Footer() {
     return (
         <div>
-            <img className='horizontal-line' src={line}></img>
+            <img className='horizontal-line' src={line} alt=''></img>
             <div className='footer'>
                 <div className='footer-text-image-container'>
                     <div className='footer-text'>
@@ -15,10 +17,10 @@ function Footer() {
                         <a className='footer-link' href='mailto:yan.kelly11@gmail.com'><h3>EMAIL</h3></a>
                         <h3>|</h3>
                         {/* <a className='footer-link' href='https://www.linkedin.com/in/kellyyann/' target='_blank'><h3>LINKEDIN</h3></a> */}
-                        <a className='footer-link' href='https://www.github.com/kellyyan/' target='_blank'><h3>GITHUB</h3></a>
+                        <a className='footer-link' href='https://www.github.com/kellyyan/' target='_blank' rel="noopener noreferrer"><h3>GITHUB</h3></a>
                     </div>   
                 </div>
-                <img className='footer-image' src={footerImage}></img>
+                <img className='footer-image' src={footerImage}  alt=''></img>
                 </div>
                 <h4 className='footer-copyright'>COPYRIGHT KELLY YAN 2022</h4>
             </div>

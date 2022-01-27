@@ -1,3 +1,5 @@
+import React from 'react'
+
 import '../index.css'
 import './caseStudy.css'
 import Navbar from '../components/Navbar'
@@ -8,14 +10,13 @@ import branding from '../images/fid/fid-branding.svg'
 import lofi from '../images/fid/fid-lofi.svg'
 import hifi from '../images/fid/fid-hifi.svg'
 import fid from '../images/fid/fid-dec-1.svg'
-import pocket from '../images/fid/fid-dec-2.svg'
 
 function CaseStudy1() {
     return (
         <div className='Parent'>
             <div className='App'>
                 <Navbar />
-                <img></img>
+                {/* <img></img> */}
                 <div className='CaseStudy'>            
                     <h1 className='h1'>F*ck It Denim Website Design</h1>
                     <div className='info-container'>
@@ -49,7 +50,7 @@ function CaseStudy1() {
                     </div> 
                     <div className='section'>
                         <h3 className='h3'>RESEARCH</h3>
-                        <p>My boss gave me examples of websites she liked and whose general style she wanted to imitate such as <a className='a' href='https://yourparade.com' target='_blank'>Parade</a> and <a className='a' href='https://starface.world/' target='_blank'>Starface</a>.
+                        <p>My boss gave me examples of websites she liked and whose general style she wanted to imitate such as <a className='a' href='https://yourparade.com' target='_blank' rel="noopener noreferrer">Parade</a> and <a className='a' href='https://starface.world/' target='_blank' rel="noopener noreferrer">Starface</a>.
                         <br />
                         The target audience was women in their early 20s who are looking to purchase closet staples. Through my research, I found that the demographic gravitated toward fun and casual branding, with a preference towards warm colors.
                         <br />

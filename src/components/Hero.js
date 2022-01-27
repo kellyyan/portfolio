@@ -1,6 +1,6 @@
+import React from 'react'
+
 import './Hero.css'
-import styled from 'styled-components'
-import sparkle from '../images/sparkle.svg'
 import kermit from '../images/kermit.png'
 
 function Hero() {
@@ -13,10 +13,9 @@ function Hero() {
                         <br/>
                         I’m Kelly, an aspiring designer and developer.
                     </h1>
-                    <img className='kermit' src={kermit}></img>
+                    <img className='kermit' src={kermit} alt='kermit'></img>
                 </div>
                 <div>
-                    {/* <img className='sparkle-img' src={sparkle}></img> */}
                     <svg className='sparkle-img' width="156" height="109" viewBox="0 0 156 109" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M88.9375 27C89.2938 33.0073 88.2963 47.1846 81.4563 55.8352C74.6163 64.4857 66.9688 67.5495 64 68" stroke="black" stroke-width="2"/>
                         <path d="M145.975 1C146.118 3.1978 145.719 8.38462 142.983 11.5495C140.247 14.7143 137.188 15.8352 136 16" stroke="black" stroke-width="2"/>

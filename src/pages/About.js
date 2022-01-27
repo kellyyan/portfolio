@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Navbar from "../components/Navbar"
 import Footer from '../components/Footer'
 import '../index.css'
@@ -11,7 +13,7 @@ function About(){
 
     const memes = memesData.map(meme => {
         return (
-            <img className='meme' src={`./images/memes/${meme.url}`}></img>
+            <img className='meme' src={`./images/memes/${meme.url}`} alt=''></img>
         )
     })
 
@@ -28,10 +30,10 @@ function About(){
                             </p>
                         <p className='about-me-text'>Feel free to email me about anything (especially memes you like) at yan.kelly11@gmail.com.</p>
                         {/* <br/> */}
-                        <p className='about-me-text'>Here is my design <a className='resume-link' href={Resume} target='_blank'>resume.</a></p>
+                        <p className='about-me-text'>Here is my design <a className='resume-link' href={Resume} target='_blank' rel="noopener noreferrer">resume.</a></p>
                     </div>
                     <div>
-                        <img className='me' src={me} alt='Image of Kelly.'></img>
+                        <img className='me' src={me} alt='Kelly.'></img>
                         <img className='frog-waving' src={frogWaving} alt=''></img>
                     </div>
                 </div>

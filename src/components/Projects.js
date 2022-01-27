@@ -1,3 +1,5 @@
+import React from 'react'
+
 import projectsData from '../data/projectsData'
 import Project from './Project'
 import './Projects.css'
