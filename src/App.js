@@ -3,9 +3,10 @@ import React from 'react';
 import GlobalFonts from './fonts/fonts'
 import './App.css'
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from 'react-router-dom'
+// import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import About from './pages/About'
 import CaseStudy1 from './pages/CaseStudy1'
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className='Parent'>
       <GlobalFonts />
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop />
         <Routes>
             <Route index element={<Home />} />
@@ -23,7 +24,7 @@ function App() {
             <Route path='coders-sb' element={<CaseStudy1 />} />
             <Route path='fid' element={<CaseStudy2 />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
