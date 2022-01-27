@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1400px) {
     .image-container {
         flex-direction: column;
     }
@@ -34,15 +34,38 @@
         position: absolute;
         transform: translate(0vmin, -20vmin);
     }
+
+    .pocket {
+        width: 20vmin;
+    }
+
+    .sun-top {
+        width: 20vmin;
+        height: 20vmin;
+        transform: translate(-30vmin, -2vmin); 
+    }
+
+    .waves {
+        width: 20vmin;
+        height: auto;
+        transform: translate(5vmin, 10vmin); 
+    }
+
+    .title-dec {
+        display: flex;
+        flex-direction: row;
+        gap: 5vmin;
+    }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1400px) {
     .image-container {
         flex-direction: row;
     }
 
     .sun {
         width: 28vmin;
+        height: auto;
         position: absolute;
         transform: translate(100vmin, -28vmin);
     }
@@ -70,9 +93,38 @@
     }
 
     .fid {
-        width: 37vmin; 
+        width: 30vmin; 
         position: absolute;
-        transform: translate(120vmin, -50vmin);      
+        transform: translate(120vmin, -40vmin);      
+    }
+
+    .pocket {
+        width: 25vmin;
+        height: auto;
+        top: 50vmin;
+        right: 30vmin;
+        position: absolute;
+    }
+
+    .sun-top {
+        width: 20vmin;
+        height: 20vmin;
+        z-index: 1;
+        position: absolute;
+        transform: translate(110vmin, -4vmin);
+    }
+
+    .waves {
+        width: 35vmin;
+        height: auto;
+        position: absolute;
+        transform: translate(110vmin, 20vmin);
+    }
+
+    .title-dec {
+        display: flex;
+        flex-direction: row;
+        gap: 10vmin;
     }
 }
 
@@ -90,6 +142,7 @@
 
 .h1 {
     margin: 0;
+    width: 80%;
 }
 
 .p {
@@ -157,3 +210,4 @@
     margin-left: auto;
     margin-right: auto;
 }
+

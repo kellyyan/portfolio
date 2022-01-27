@@ -10,6 +10,7 @@ import branding from '../images/fid/compressed/fid-branding.svg'
 import lofi from '../images/fid/compressed/fid-lofi.svg'
 import hifi from '../images/fid/compressed/fid-hifi.svg'
 import fid from '../images/fid/compressed/fid-dec-1.svg'
+import pocket from '../images/fid/compressed/fid-dec-2.svg'
 
 function CaseStudy1() {
     return (
@@ -19,6 +20,7 @@ function CaseStudy1() {
                 {/* <img></img> */}
                 <div className='CaseStudy'>            
                     <h1 className='h1'>F*ck It Denim Website Design</h1>
+                    <img className='pocket' src={pocket} alt=''></img>
                     <div className='info-container'>
                         <div className='section-desc'>
                             <h3 className='h3'>ROLES</h3>
@@ -52,14 +54,14 @@ function CaseStudy1() {
                         <h3 className='h3'>RESEARCH</h3>
                         <p>My boss gave me examples of websites she liked and whose general style she wanted to imitate such as <a className='a' href='https://yourparade.com' target='_blank' rel="noopener noreferrer">Parade</a> and <a className='a' href='https://starface.world/' target='_blank' rel="noopener noreferrer">Starface</a>.
                         <br />
-                        The target audience was women in their early 20s who are looking to purchase closet staples. Through my research, I found that the demographic gravitated toward fun and casual branding, with a preference towards warm colors.
+                        The target audience was women in their early 20s who are looking to purchase closet staples. I did research on components that successful brands geared towards millenial women exhibited and found that the demographic gravitated toward fun and casual branding.
                         <br />
                         </p>
                     </div>    
                     <div className='section'>
                         <h3 className='h3'>SOLUTION</h3>
                         <p>
-                            Under the instructions of my boss who wanted an unconventional primary color within the branding, I chose a neon green as the primary color coupled with easy to read sans-serif fonts.
+                            Under the instructions of my boss who wanted an unconventional primary color within the branding, I chose a neon green as the primary color coupled with easy to read sans-serif fonts. The brand voice would be bold, cool, and casual.
                         </p>
                         <div className='image-with-caption center'>
                             <img className='image-scale' src={branding} alt=''></img>
@@ -68,7 +70,7 @@ function CaseStudy1() {
                     </div>
                     <div className='section'>
                         <h3 className='h3'>LOW FIDELITY WIREFRAMES</h3>
-                        <p>I then created the low fidelity wireframes for the site layout with all the necessary content needed. I recieved approval from my boss and then moved onto the high fidelity iterations.</p>
+                        <p>I created the low fidelity wireframes for the site layout with all the necessary content needed. I recieved approval from my boss and then moved onto the high fidelity iterations.</p>
                         <div className='image-with-caption'>
                             <div className='single'>
                                 <img className='single-page-image' src={lofi} alt=''></img>
@@ -79,8 +81,8 @@ function CaseStudy1() {
                     <div className='section'>
                         <h3 className='h3'>HIGH FIDELITY WIREFRAMES</h3>
                         <p>
-                            I created high fidelity wireframes, with illustrations created in Adobe Illustrator. I went through various iterations and presented to my boss
-                            designs with different color options, so she could help choose the best one. I implemented feedback from her until we produced a satisfying final result.
+                            I turned the low fidelity wireframes into high fidelity ones, adding illustrations I created in Adobe Illustrator. I went through sevral iterations and presented 
+                            different versions to my boss, to get her feedback and perference for a certain design choice over another. I implemented feedback from her until we produced a satisfying final result.
                         </p>
                         <div className='image-with-caption'>
                             <div className='single'>
@@ -92,7 +94,7 @@ function CaseStudy1() {
                     <div className='section'>
                         <h3 className='h3'>DELIVERABLE</h3>
                         <p>
-                            My final deliverable was the wireframe design which I presented to the developer.
+                            My final deliverable was the wireframe design which I handed off to the developer on the team.
                         </p>
                     </div>
                     <div className='section last-section'>

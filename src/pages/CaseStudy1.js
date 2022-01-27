@@ -17,6 +17,8 @@ import hiFi1 from '../images/coders-sb/compressed/hifi-1.svg'
 import hiFi2 from '../images/coders-sb/compressed/hifi-2.svg'
 import hiFi3 from '../images/coders-sb/compressed/hifi-3.svg'
 import world from '../images/coders-sb/world.svg'
+import sunTop from '../images/coders-sb/sun-sunglasses-on-top.svg'
+import waves from '../images/coders-sb/waves.svg'
 
 function CaseStudy1() {
     return (
@@ -24,8 +26,12 @@ function CaseStudy1() {
             <div className='App'>
                 <Navbar />
                 {/* <img></img> */}
-                <div className='CaseStudy'>            
-                    <h2 className='h2'>Coders SB Website Resdesign</h2>
+                <div className='CaseStudy'>  
+                    <div className='title-dec'>
+                        <h2 className='h2'>Coders SB Website Resdesign</h2>
+                        <img className='waves' src={waves} alt=''></img>
+                        <img className='sun-top' src={sunTop} alt=''></img>
+                    </div>          
                     <div className='info-container'>
                         <div className='section-desc'>
                             <h3 className='h3'>ROLES</h3>
@@ -42,7 +48,7 @@ function CaseStudy1() {
                     <div className='section'>
                         <h3 className='h3'>PROBLEM STATEMENT</h3>
                         <p>
-                            The Coders SB website was badly in need of a redesign. The current website was visually unappealing (it was ugly), had no brand consistency, lacked critical information about the organization, and was confusing to navigate.
+                            The Coders SB website was badly in need of a redesign. The current website was visually unappealing, had no brand consistency, lacked critical information about the organization, and was confusing to navigate.
                             As the sole UI/UX designer on the officer team, I spearheaded the site redesign.
                         </p>
                         <div className='image-with-caption'>
@@ -77,8 +83,8 @@ function CaseStudy1() {
                         <img className='sun' src={sun} alt=''></img>
                         <h3 className='h3'>SOLUTION</h3>
                         <p>
-                            I wanted to create something that encompassed these familiar elements while also being unique. I settled on a color palette inspired by UCSB sunsets over the ocean with blue, yellow, orange, and pink.
-                            The combination of familiar colors and visual motifs of beach related elements such as the sun and waves would be a refreshing break from the common computer science and tech imagery.
+                            I wanted the site branding to encompass familiar elements in tech design while being unique. I settled on a color palette inspired by sunsets over the ocean at UCSB which included shades of blue, yellow, orange, and pink.
+                            The combination of familiar colors and visual motifs of various beach related elements, such as the sun and waves, provides a refreshing break from common computer science and tech imagery.
                             I also selected a clean and playful sans-serif font to evoke convey of friendliness to encourage viewers to join the organization.
                         </p>
                         <div className='image-with-caption center'>
@@ -88,7 +94,7 @@ function CaseStudy1() {
                     </div>
                     <div className='section'>
                         <h3 className='h3'>LOW FIDELITY WIREFRAMES</h3>
-                        <p>I then created low fidelity wireframes for the site layout with all the necessary content needed. I recieved general feedback on content from other officers in the organization and then moved onto the high fidelity iterations.</p>
+                        <p>I created low fidelity wireframes for the site layout. Upon recieving feedback on content from other officers in the organization, I moved onto the high fidelity iterations.</p>
                         <div className='image-with-caption'>
                             <div className='image-container'>
                                 <img className='page-image' src={lowFi1} alt=''></img>
@@ -101,8 +107,8 @@ function CaseStudy1() {
                     <div className='section'>
                         <h3 className='h3'>HIGH FIDELITY WIREFRAMES</h3>
                         <p>
-                            I created high fidelity wireframes, with illustrations created in Adobe Illustrator. I focusing on creating a dynamic, and interesting page layout while ensuring the site was intuitive to navigate and a fun overall visual experience.
-                            I recieved feedback on my designs from my peers in <a className='a' href='https://sbcreativelab.com' target='_blank' rel="noopener noreferrer">SB Creative Lab</a> and further interated by making the call to action items buttons instead of links so they are more prominent and the user is more likely to click them.
+                            While designing the high fidelity wireframes, I added illustrations created in Adobe Illustrator to enhance the site through visual graphic elements. I focusing on creating a dynamic, and interesting page layout while ensuring the site was intuitive to navigate and a fun overall visual experience.
+                            After recieving feedback on my designs from my peers in <a className='a' href='https://sbcreativelab.com' target='_blank' rel="noopener noreferrer">SB Creative Lab</a>, I created a second interatation by improving the prominence of call-to-action elements and making the text hierarchy more clear.
                         </p>
                         <div className='image-with-caption'>
                             <div className='image-container'>
@@ -116,15 +122,14 @@ function CaseStudy1() {
                     <div className='section'>
                         <h3 className='h3'>DELIVERABLE</h3>
                         <p>
-                            I am currently coding the site from scratch in React. It will be up soon at the <a className='a' href='https://coderssb.com' target='_blank' rel="noopener noreferrer">Coders SB</a> site. For now, the website is still the old design.
-                            The redesigned site will be up soon!
+                            I am currently coding the site from scratch in React. It will soon be live on the Coders SB <a className='a' href='https://coderssb.com' target='_blank' rel="noopener noreferrer">site.</a>
                         </p>
                     </div>
                     <div className='section last-section'>
                         <h3 className='h3'>TAKEAWAYS</h3>
                         <div className='text-image-container'>
                             <p>
-                                This was my first major project in which I designed and developed a site from scratch. The scope of the project was daunting at first but became rewarding experience to be able to see a project from start to finish.
+                                This was a major project in which I was able to design and develope a site from scratch. It was an incredibly rewarding experience to be able to build a project from the initial brainstorming mood boards to a deploying a web application.
                             </p>
                             <img className='world' src={world} alt=''></img>
                         </div>

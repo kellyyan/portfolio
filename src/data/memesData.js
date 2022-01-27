@@ -5,23 +5,31 @@ const memesData = [
     },
     {
         "id" : "2",
-        "url" : "cute.jpg"
-    },
-    {
-        "id" : "2",
-        "url" : "product.png"
+        "url" : "eating.png"
     },
     {
         "id" : "3",
-        "url" : "boba.png"
+        "url" : "product.png"
     },
     {
         "id" : "4",
-        "url" : "test-grades.jpg"
+        "url" : "boba.png"
     },
     {
         "id" : "5",
+        "url" : "test-grades.jpg"
+    },
+    {
+        "id" : "6",
+        "url" : "cute.jpg"
+    },
+    {
+        "id" : "7",
         "url" : "christmas.jpg"
+    },
+    {
+        "id" : "8",
+        "url" : "parallel-universe.png"
     },
 ]
 

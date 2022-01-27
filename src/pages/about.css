@@ -16,6 +16,7 @@
 
     .frog-waving {
         width:3.8vmin;
+        height: auto;
         position: absolute;
         transform: translate(-54vmin, 50vmin);
     }
@@ -39,6 +40,7 @@
 
     .frog-waving {
         width: 4.7vmin;
+        height: auto;
         position: absolute;
         transform: translate(-55.2vmin, 50vmin);
     }
@@ -51,6 +53,7 @@
 
 .me {
     width: 50vmin;
+    height: auto;
     position: relative;
 }
 
@@ -61,4 +64,5 @@
 
 .meme {
     width: 100%;
+    height: auto;
 }
