@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 import oldWebsite1 from '../images/fid/compressed/old-website.svg'
+import userPersona from '../images/fid/compressed/fid-user-persona.svg'
 import branding from '../images/fid/compressed/fid-branding.svg'
 import lofi from '../images/fid/compressed/fid-lofi.svg'
 import hifi from '../images/fid/compressed/fid-hifi.svg'
@@ -54,9 +55,15 @@ function CaseStudy1() {
                         <h3 className='h3'>RESEARCH</h3>
                         <p>My boss gave me examples of websites she liked and whose general style she wanted to imitate such as <a className='a' href='https://yourparade.com' target='_blank' rel="noopener noreferrer">Parade</a> and <a className='a' href='https://starface.world/' target='_blank' rel="noopener noreferrer">Starface</a>.
                         <br />
-                        The target audience was women in their early 20s who are looking to purchase closet staples. I did research on components that successful brands geared towards millenial women exhibited and found that the demographic gravitated toward fun and casual branding.
+                        The target audience was women in their mid 20s to early 30s who are looking to purchase closet staples. I did research on components that successful brands geared towards these women exhibited and found that the demographic gravitated toward fun and casual branding. I also created a user persona to help me better understand who I was designing for.
                         <br />
                         </p>
+                        <div className='image-with-caption'>
+                            <div className='image-container'>
+                                <img className='single-fid-old-page' src={userPersona} alt=''></img>
+                            </div>
+                            <p className='caption'>The user persona I curated.</p>
+                        </div>
                     </div>    
                     <div className='section'>
                         <h3 className='h3'>SOLUTION</h3>
