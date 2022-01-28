@@ -27,10 +27,13 @@
 
     .arrow-icon {
         width: 3vmin;
+        text-align: left;
     }
 
     .case-study-p {
         white-space: nowrap;
+        text-align: left;
+        align-self: left;
     }
 }
 
@@ -82,6 +85,7 @@
     align-items: center;
     gap: 2vmin;
     width: fit-content;
+    text-align: left;
 }
 
 .arrow-icon {

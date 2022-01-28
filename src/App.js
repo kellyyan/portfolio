@@ -1,7 +1,6 @@
 import React from 'react';
-
-import GlobalFonts from './fonts/fonts'
 import './App.css'
+import './index.css'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
@@ -14,7 +13,7 @@ import CaseStudy2 from './pages/CaseStudy2'
 function App() {
   return (
     <div className='Parent'>
-      <GlobalFonts />
+      {/* <GlobalFonts /> */}
       <BrowserRouter>
         <ScrollToTop />
         <Routes>

@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './fonts/NewYork/NewYork.otf'
+import './fonts/NewYork/NewYork.woff2'
+import './fonts/NewYork/NewYork.woff'
+
+import './fonts/AcuminProWide/AcuminProWideBook.otf'
+// import './fonts/NewYork/NewYork.woff2'
+// import './fonts/NewYork/NewYork.woff'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

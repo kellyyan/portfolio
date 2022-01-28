@@ -1,6 +1,8 @@
 @media screen and (max-width: 1400px) {
     .image-container {
+        display: flex;
         flex-direction: column;
+        gap: 10vmin;
     }
 
     .sun {
@@ -60,7 +62,11 @@
 
 @media screen and (min-width: 1400px) {
     .image-container {
+        display: flex;
         flex-direction: row;
+        align-items: flex-start;
+        gap: 10vmin;
+        justify-content: center;
     }
 
     .sun {
@@ -177,14 +183,8 @@
     gap: 2vmin;    
 }
 
-.image-container {
-    display: flex;
-    gap: 10vmin;
-}
-
 .page-image {
-    width: 100%;
-    height: 100%;
+    width: 42vmin;
 }
 
 .image-with-caption {
@@ -211,3 +211,6 @@
     margin-right: auto;
 }
 
+.single-fid-old-page {
+    width: 100%;
+}

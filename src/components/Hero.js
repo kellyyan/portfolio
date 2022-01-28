@@ -8,7 +8,7 @@ function Hero() {
         <div className='hero-container'>
             <div className='header-image-container'>
                 <div className='kermit-text-container'>
-                    <h1 className='header'>
+                    <h1 className='header NewYork'>
                         Hello and welcome!
                         <br/>
                         I’m Kelly, an aspiring designer and developer.

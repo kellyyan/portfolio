@@ -41,7 +41,7 @@ function CaseStudy1() {
                         </p>
                         <div className='image-with-caption'>
                             <div className='image-container'>
-                                <img className='page-image' src={oldWebsite1} alt=''></img>
+                                <img className='single-fid-old-page' src={oldWebsite1} alt=''></img>
                             </div>
                             <p className='caption'>The old coming soon page– double yikes!</p>
                         </div>
