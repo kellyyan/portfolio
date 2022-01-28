@@ -108,7 +108,7 @@ function CaseStudy1() {
                         <h3 className='h3'>TAKEAWAYS</h3>
                         <div className='text-image-container'>
                             <p>
-                                The internship gave me an opportunity to design for a buisness in a professional capacity. I gained skills such as not taking feedback personally and working with others to iterate until a satisfactory design is produced.
+                                The internship gave me an opportunity to design for a buisness in a professional capacity. I developed important skills such as learning to incorporate critique and iterating until a satisfactory design is produced. It was a greatly rewarding and fun experience to be able to work with the founder and make her vision come to life.
                             </p>
                             <img className='fid' src={fid} alt=''></img>
                         </div>
