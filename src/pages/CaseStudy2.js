@@ -53,9 +53,9 @@ function CaseStudy1() {
                     </div> 
                     <div className='section'>
                         <h3 className='h3'>RESEARCH</h3>
-                        <p>My boss gave me examples of websites she liked and whose general style she wanted to imitate such as <a className='a' href='https://yourparade.com' target='_blank' rel="noopener noreferrer">Parade</a> and <a className='a' href='https://starface.world/' target='_blank' rel="noopener noreferrer">Starface</a>.
+                        <p>My boss gave me examples of websites whose style and content she liked such as <a className='a' href='https://yourparade.com' target='_blank' rel="noopener noreferrer">Parade</a> and <a className='a' href='https://starface.world/' target='_blank' rel="noopener noreferrer">Starface</a>.
                         <br />
-                        The target audience was women in their mid 20s to early 30s who are looking to purchase closet staples. I did research on components that successful brands geared towards these women exhibited and found that the demographic gravitated toward fun and casual branding. I also created a user persona to help me better understand who I was designing for.
+                        The target audience was women in their mid 20s to early 30s who are looking to purchase closet staples. I did research on components that successful brands geared towards these women exhibited and found that the demographic gravitated toward fun and casual branding. I also created a detailed user persona for our target audience to help me better understand who I was designing for
                         <br />
                         </p>
                         <div className='image-with-caption'>

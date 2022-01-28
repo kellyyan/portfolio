@@ -135,7 +135,7 @@ function CaseStudy1() {
                         <h3 className='h3'>TAKEAWAYS</h3>
                         <div className='text-image-container'>
                             <p>
-                                This was a major project in which I was able to design and develope a site from scratch. It was an incredibly rewarding experience to be able to build a project from the initial brainstorming mood boards to a deploying a web application.
+                                This was a major project in which I was able to design and develope a site from scratch. It was an incredibly rewarding experience to be able to build a project from the initial brainstorming stages to a deploying fully functional a web application.
                             </p>
                             <img className='world' src={world} alt=''></img>
                         </div>
