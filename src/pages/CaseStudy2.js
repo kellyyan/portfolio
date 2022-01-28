@@ -55,7 +55,7 @@ function CaseStudy1() {
                         <h3 className='h3'>RESEARCH</h3>
                         <p>My boss gave me examples of websites whose style and content she liked such as <a className='a' href='https://yourparade.com' target='_blank' rel="noopener noreferrer">Parade</a> and <a className='a' href='https://starface.world/' target='_blank' rel="noopener noreferrer">Starface</a>.
                         <br />
-                        The target audience was women in their mid 20s to early 30s who are looking to purchase closet staples. I did research on components that successful brands geared towards these women exhibited and found that the demographic gravitated toward fun and casual branding. I also created a detailed user persona for our target audience to help me better understand who I was designing for
+                        The target audience was women in their mid 20s to early 30s who are looking to purchase closet staples. I did research on components that successful brands geared towards these women exhibited and found that the demographic gravitated toward fun and casual branding. I also created a detailed user persona for our target audience to help me better understand who I was designing for.
                         <br />
                         </p>
                         <div className='image-with-caption'>
@@ -90,6 +90,8 @@ function CaseStudy1() {
                         <p>
                             I turned the low fidelity wireframes into high fidelity ones, adding illustrations I created in Adobe Illustrator. I went through sevral iterations and presented 
                             different versions to my boss, to get her feedback and perference for a certain design choice over another. I implemented feedback from her until we produced a satisfying final result.
+                            The focus was on promoting the brand and incentivizing potential customers to join our mailing list. To do so, I encapsulated various call-to-action elements in buttons with a bright neon green accent color, drawing the visitor's attention to them.
+                            Additionally, I ensured that the brand voice was casual, friendly, and transparent about the process and protection of user data.
                         </p>
                         <div className='image-with-caption'>
                             <div className='single'>
@@ -101,7 +103,7 @@ function CaseStudy1() {
                     <div className='section'>
                         <h3 className='h3'>DELIVERABLE</h3>
                         <p>
-                            My final deliverable was the wireframe design which I handed off to the developer on the team.
+                            My final deliverable was the wireframe design which I handed off to the developer on the team. We were able to successfully generate a email list of potential customers through the coming soon page. 
                         </p>
                     </div>
                     <div className='section last-section'>
