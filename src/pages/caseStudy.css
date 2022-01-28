@@ -1,8 +1,14 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1100px) {
     .image-container {
         display: flex;
         flex-direction: column;
         gap: 10vmin;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-image {
+        width: 100%;
     }
 
     .sun {
@@ -44,13 +50,14 @@
     .sun-top {
         width: 20vmin;
         height: 20vmin;
-        transform: translate(-30vmin, -2vmin); 
+        margin-left: auto;
+        visibility: visible;
     }
 
     .waves {
         width: 20vmin;
         height: auto;
-        transform: translate(5vmin, 10vmin); 
+        /* transform: translate(5vmin, 10vmin);  */
     }
 
     .title-dec {
@@ -58,9 +65,15 @@
         flex-direction: row;
         gap: 5vmin;
     }
+
+    .sun-and-waves {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1100px) {
     .image-container {
         display: flex;
         flex-direction: row;
@@ -132,6 +145,31 @@
         flex-direction: row;
         gap: 10vmin;
     }
+
+    .page-image {
+        width: 42vmin;
+    }
+
+    .hero-img {
+        display: flex;
+    }
+
+    .coders-sb-header-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10vmin;
+    }
+
+    .sun-and-waves {
+        margin-left: auto;
+        width: 50vmin;
+    }
+
+    .sun-top {
+        visibility: hidden;
+        width: 0;
+        height: 0;;
+    }
 }
 
 .CaseStudy {
@@ -149,6 +187,10 @@
 .h1 {
     margin: 0;
     width: 80%;
+}
+
+.h2 {
+    font-size: 10vmin;
 }
 
 .p {
@@ -183,10 +225,6 @@
     gap: 2vmin;    
 }
 
-.page-image {
-    width: 42vmin;
-}
-
 .image-with-caption {
     display: flex;
     flex-direction: column;
@@ -214,3 +252,4 @@
 .single-fid-old-page {
     width: 100%;
 }
+

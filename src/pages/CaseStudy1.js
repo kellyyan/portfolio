@@ -19,6 +19,7 @@ import hiFi3 from '../images/coders-sb/compressed/hifi-3.svg'
 import world from '../images/coders-sb/world.svg'
 import sunTop from '../images/coders-sb/sun-sunglasses-on-top.svg'
 import waves from '../images/coders-sb/waves.svg'
+import sunAndWave from '../images/coders-sb/sun-and-wave.svg'
 
 function CaseStudy1() {
     return (
@@ -27,24 +28,29 @@ function CaseStudy1() {
                 <Navbar />
                 {/* <img></img> */}
                 <div className='CaseStudy'>  
-                    <div className='title-dec'>
-                        <h2 className='h2'>Coders SB Website Resdesign</h2>
-                        <img className='waves' src={waves} alt=''></img>
-                        <img className='sun-top' src={sunTop} alt=''></img>
-                    </div>          
-                    <div className='info-container'>
-                        <div className='section-desc'>
-                            <h3 className='h3'>ROLES</h3>
-                            <p className='p'>UI/UX Design</p>
-                        </div>
-                        <div className='section-desc'>
-                            <h3 className='h3'>TOOLS</h3>
-                            <div>
-                                <p className='p'>Figma</p>
-                                <p className='p'>Adobe Illustrator</p>
-                            </div>
-                        </div>  
-                    </div>     
+                <div className='hero-img'>
+                    <div className='coders-sb-header-container'>
+                        <div className='title-dec'>
+                                <h2 className='h2'>Coders SB Website Resdesign</h2>
+                                {/* <img className='waves' src={waves} alt=''></img> */}
+                                <img className='sun-top' src={sunTop} alt=''></img>
+                            </div>          
+                            <div className='info-container'>
+                                <div className='section-desc'>
+                                    <h3 className='h3'>ROLES</h3>
+                                    <p className='p'>UI/UX Design</p>
+                                </div>
+                                <div className='section-desc'>
+                                    <h3 className='h3'>TOOLS</h3>
+                                    <div>
+                                        <p className='p'>Figma</p>
+                                        <p className='p'>Adobe Illustrator</p>
+                                    </div>
+                                </div>  
+                            </div>                       
+                    </div>
+                    <img className='sun-and-waves' src={sunAndWave} alt=''></img>
+                </div>
                     <div className='section'>
                         <h3 className='h3'>PROBLEM STATEMENT</h3>
                         <p>
