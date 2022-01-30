@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     .about-me-container {
         flex-direction: column;
     }
@@ -20,9 +20,16 @@
         position: absolute;
         transform: translate(-54vmin, 50vmin);
     }
+
+    .me {
+        width: 50vmin;
+        height: auto;
+        position: relative;
+    }
 }
 
-@media screen and (min-width: 900px) {
+
+@media screen and (min-width: 1200px) {
     .about-me-container {
         flex-direction: row;
     }   
@@ -44,6 +51,12 @@
         position: absolute;
         transform: translate(-55.2vmin, 50vmin);
     }
+
+    .me {
+        width: 50vmin;
+        height: auto;
+        position: relative;
+    }
 }
 
 .resume-link {
@@ -51,11 +64,6 @@
     opacity: 0.5;
 }
 
-.me {
-    width: 50vmin;
-    height: auto;
-    position: relative;
-}
 
 .about-me-container {
     display: flex;
