@@ -112,9 +112,9 @@
     }
 
     .fid {
-        width: 30vmin; 
+        width: 20vmin; 
         position: absolute;
-        transform: translate(120vmin, -40vmin);      
+        transform: translate(120vmin, -22vmin);      
     }
 
     .pocket {
