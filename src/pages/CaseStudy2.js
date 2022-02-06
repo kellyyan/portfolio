@@ -49,7 +49,7 @@ function CaseStudy1() {
                     </div>        
                     <div className='section'>
                     <h3 className='h3'>OBJECTIVE</h3>
-                        <p>Design a coming soon page with and a strong visual impact to get potential customers to join the mailing list to stay updated about the brand.</p>
+                        <p>Design a coming soon page with a strong visual impact to convince potential customers to join the mailing list to stay updated about the brand.</p>
                     </div> 
                     <div className='section'>
                         <h3 className='h3'>RESEARCH</h3>
